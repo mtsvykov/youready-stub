@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouReady — обновляем сервис</title>
+<meta name="description" content="YouReady временно недоступен: мы обновляем сервис. Данные пользователей сохранены.">
+<meta name="theme-color" content="#F5F8F7">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root { --ink:#10262a; --ink-soft:#4b6066; --bg:#f5f8f7; --azure:#006c84; --peach:#ffccbb; --topaz:#6eb5c0; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; min-height: 100vh; min-height: 100dvh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px 16px;
+    background: var(--bg); color: var(--ink);
+    font-family: Manrope, "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+  }
+  main { width: 100%; max-width: 480px; }
+  .mark { width: 84px; height: auto; display: block; margin: 0 0 28px; }
+  .mark circle { mix-blend-mode: multiply; }
+  h1 { margin: 0 0 14px; font-size: 26px; line-height: 1.2; font-weight: 800; }
+  p { margin: 0 0 14px; font-size: 16px; color: var(--ink-soft); }
+  p.lead { color: var(--ink); }
+  a { color: var(--azure); font-weight: 700; text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--azure); outline-offset: 3px; border-radius: 2px; }
+  .brand { margin-top: 36px; font-size: 13px; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<main>
+  <svg class="mark" viewBox="0 0 70 66" role="img" aria-label="YouReady">
+    <circle cx="24" cy="26" r="24" fill="#ffccbb"/>
+    <circle cx="44" cy="42" r="24" fill="#6eb5c0"/>
+  </svg>
+  <h1>Мы обновляем YouReady</h1>
+  <p class="lead">Сервис временно недоступен: мы перестраиваем его.</p>
+  <p>Ваши данные сохранены. Чтобы получить их копию или попросить удалить, напишите на <a href="mailto:support@youready.kz">support@youready.kz</a>.</p>
+  <p class="brand">YouReady · youready.kz</p>
+</main>
+</body>
+</html>
